@@ -1,0 +1,70 @@
+a:link {color:blue;}
+a:visited {color:red;}
+a:hover {color:green;}
+a:active {color:pink}
+/*link pseudo-classes*/
+.text-center {
+  text-align: center;
+}
+/*sets a class name "text center" and centers text of that element*/
+.wrapper {
+  width: 500px;
+  margin: auto;
+}
+/*sets a class name "wrapper" and sets width to 500px with a margin determined by browser to center the element*/
+.padded {
+  padding: 30px;
+}
+/*sets a class name "padded" and sets the padding around the content to 30px*/
+main {
+  background-image: url("images/sunset-mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: 2750px;
+}
+/*set to reference the image file in images folder as a background image for the main section of the page that doesnt repeat with a size of 2750px*/
+h1, h3 {
+  color: white;
+  font-family: serif;
+  background-color: #81968F;
+}
+/*sets both h1 and h3 elements to have this background color*/
+h1 {
+  font-size: 70px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+/*sets font size*/
+h2 {
+  color: white;
+  margin: 2px;
+  font-size: 30px;
+  font-family: serif;
+  letter-spacing: 5px;
+  background-color: #96BDC6;
+}
+/*sets small margin size*/
+h3 {
+  font-size: 20px;
+}
+
+p {
+  color: black;
+  margin: 2px;
+  font-size: 18px;
+  font-family: sans-serif;
+  background: #E9D6EC;
+}
+
+ul {
+  margin: 5px;
+  font-size: 16px;
+  font-family: sans-serif;
+  background-color: #E8CCBF;
+}
+
+ol {
+  margin: 5px;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: #CFB9A5;
+}

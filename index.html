@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<!--declare this doc as html5-->
+
+<html lang="en"> 
+<!--identifies and contains html code wraps around whole doc--> 
+  
+  <head> 
+<!--contains all important info browsers and search engines need-->
+    <meta charset="UTF-8"> 
+<!--tells browsers how to process characters and code-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<!--sets width and scale of the web page to screen width and scale of user device-->
+    <title>Daniel Park Portfolio</title>
+<!--title and bookmarked name-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!--normalize.css-->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+<!--references style.css relation stylesheet media type text/css-->
+  </head>
+  
+  <body>
+<!--contains all html code for text, images, links, containers-->
+    
+    <div>
+      <header>
+        <h1 class="text-center padded">Daniel Park</h1> <!--header text in h1 made to center with padding-->
+      </header>
+    </div>
+<!--set a header-->
+    <main>
+      <div class="wrapper">
+        <article id="intro">
+          <h2 class="text-center padded">Intro</h2>
+          <p>I'm a software engineering student currently residing in Queens, New York.</p>
+        </article>
+      </div>
+<!--set main area divided into a few articles-->
+      <hr>
+<!--horizontal rule-->
+      <div class="wrapper">
+        <article id="about-me">
+          <h2 class="text-center padded">About me</h2>
+          <p>After spending years working through niche jobs and being deeply unsatisfied, I decided to pull the trigger on making the lifestyle changes I've always wanted. One of those being a career change.</p>
+          <p>Since junior high school I always played around with the idea of becoming a software engineer, and now that I’m on track to working in the field the only regret is that I wish I would’ve started my pursuit sooner. </p>
+          <p>In my downtime I enjoy:</p>
+          <ul>
+            <li>Lifting weights</li>
+            <li>Meeting with friends</li>
+            <li>Trying new places to eat</li>
+            <li>Playing some games</li>
+            <li>Going to car meets</li>
+            <li>Sleeping</li>
+          </ul>
+        </article>
+      </div>
+<!--article for an about me section along with an unordered list-->
+      <hr>
+
+      <div class="wrapper">
+        <article id="contact-me">  
+          <h2 class="text-center padded">Contact me</h2>
+          <p>Feel free to reach out anytime on:</p>
+          <ol>
+            <li><a href="https://www.linkedin.com/in/danielhyunpark">LinkedIn</a></li>
+            <li><a href="https://github.com/DHPGitGood">GitHub</a></li>
+          </ol>
+        </article>
+      </div>
+    </main>
+<!--article for a contact section along with links also end of main-->
+    <div>
+      <footer>
+        <h3 class="text-center padded">Daniel Park's Portfolio</h3>
+      </footer>
+    </div>
+<!--footer here-->
+    <script src="script.js"></script>
+<!--loads in script.js file (at bottom so html css loads prior to heavy js code)-->
+  </body>
+  
+</html>
